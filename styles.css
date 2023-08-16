@@ -62,6 +62,7 @@ body {
     box-shadow: 2px 2px 10px rgb(99, 99, 99);
     background-color: white;
     padding: 20px;
+    align-items: center;
 }
 
 .searchbar {
@@ -74,6 +75,32 @@ body {
 
 .notifications-container {
     grid-column: 2;
+    justify-self: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.notifications-container img {
+    width: 2rem;
+    height: auto;
+    transform: translate(0%, 40%);
+}
+
+.icon-circle {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(193, 250, 225);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.notifications-container h3 {
+   justify-self: center;
 }
 
 .button-container {
@@ -86,4 +113,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgb(99, 99, 99);
+}
+
+h3 {
+    display: inline-block;
 }

@@ -137,4 +137,10 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgb(99, 99, 99);
+    background: linear-gradient(
+        to right,
+        #ff992d 0px,
+        #ff992d 8px,
+        white 8px
+      );
 }

@@ -34,24 +34,34 @@ body {
     background-color: white;
     margin: 20px 40px 0 0;
     justify-self: center;
-    text-overflow: ellipsis;
     display: grid;
     grid-template-rows: 100px 1px 100px 1px 100px;
     border-radius: 10px;
-    overflow: hidden;
-    gap: 10px;
 }
 
 .announcements-container hr {
     border: 1px solid lightgray;
-
+    width: 80%;
+    align-self: center;
+    justify-self: center;
 }
 
 .announcement {
     overflow: hidden;
     text-overflow: ellipsis;
-    max-height: 100px;
+    height: 100px;
+    width: auto;
     padding: 20px;
+
+}
+
+.announcement p {
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 100px;
 }
 
 .trending-container {

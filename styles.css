@@ -47,7 +47,7 @@ p {
 }
 
 .announcements-container hr {
-    border: 1px solid var(--dark-gray);
+    color: var(--dark-gray);
     width: 80%;
     align-self: center;
     justify-self: center;
@@ -83,10 +83,28 @@ p {
     border-radius: 10px;
     overflow: hidden;
     gap: 10px;
+    align-items: center;
+}
+
+.trending-user {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
 }
 
 .trending-username {
     color: black;
+}
+
+.username-container {
+    align-self: center;
+}
+
+.trending-container img {
+    width: 3rem;
+    height: auto;
+    grid-column: 1;
 }
 
 .projects-container {

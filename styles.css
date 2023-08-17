@@ -25,7 +25,24 @@ p {
     display: grid;
     justify-content: center;
     color: white;
-    grid-template-rows: repeat(10, 1 fr);
+    grid-template-rows: repeat(11, 40px);
+    grid-template-columns: min-content 1fr;
+    align-items: center;
+    gap: 0 20px;
+    padding: 40px;
+}
+
+.sidebar > .fa {
+    justify-self: center;
+}
+
+.sidebar > div {
+    grid-column: 2;
+    font-weight: bold
+}
+
+.sidebar > i {
+    grid-column: 1;
 }
 
 .main-content {
